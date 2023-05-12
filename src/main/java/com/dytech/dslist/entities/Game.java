@@ -30,8 +30,11 @@ public class Game {
 	private int year;
 	private String genre;
 	private String platforms;
+	private double score;
 	private String imgUrl;
+	@Column(columnDefinition = "TEXT")
 	private String shortDescription;
+	@Column(columnDefinition = "TEXT")
 	private String longDescription;
 	
 }
